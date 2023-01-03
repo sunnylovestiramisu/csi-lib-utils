@@ -24,10 +24,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/golang/protobuf/descriptor"
-	"github.com/golang/protobuf/proto"
-	protobuf "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	protobufdescriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	"google.golang.org/protobuf/descriptor"
+	"google.golang.org/protobuf/proto"
+	protobuf "google.golang.org/protobuf/protoc-gen-go/descriptor"
+	protobufdescriptor "google.golang.org/protobuf/protoc-gen-go/descriptor"
 )
 
 // StripSecrets returns a wrapper around the original CSI gRPC message
